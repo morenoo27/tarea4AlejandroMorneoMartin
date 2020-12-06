@@ -25,4 +25,29 @@ public class comida {
         this.mesa = mesa;
     }
 
+    public int getMenu() {
+        return Menu;
+    }
+
+    public int getBebida() {
+        return Bebida;
+    }
+
+    public int getMesa() {
+        return mesa;
+    }
+
+    public void setMenu(int Menu) {
+        this.Menu = Menu;
+    }
+
+    public void setBebida(int Bebida) {
+        this.Bebida = Bebida;
+    }
+
+    public void setMesa(int mesa) {
+        this.mesa = mesa;
+    }
+    
+    
 }
