@@ -15,5 +15,14 @@ public class comida {
     private int Menu;
     private int Bebida;
     private int mesa;
-    
+
+    public comida() {
+    }
+
+    public comida(int Menu, int Bebida, int mesa) {
+        this.Menu = Menu;
+        this.Bebida = Bebida;
+        this.mesa = mesa;
+    }
+
 }
