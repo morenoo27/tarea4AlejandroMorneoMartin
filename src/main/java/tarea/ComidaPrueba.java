@@ -11,7 +11,8 @@ package tarea;
  */
 public class ComidaPrueba {
     public static void main(String[] args) {
-        
+     comida batido = new comida ();   
+        System.out.println(batido);
     }
     
 }
