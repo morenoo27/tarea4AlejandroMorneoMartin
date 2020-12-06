@@ -48,6 +48,10 @@ public class comida {
     public void setMesa(int mesa) {
         this.mesa = mesa;
     }
-    
+
+    @Override
+    public String toString() {
+        return super.toString(); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
